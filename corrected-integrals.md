@@ -1,30 +1,4 @@
-# Corrected Integration Formulas
-
-## 1. Standard Forms with Parameters
-1. ∫ (ax + b)ⁿ dx = (ax + b)ⁿ⁺¹/[a(n+1)] + C
-   - Conditions: n ≠ -1, a ≠ 0
-
-2. ∫ 1/(ax + b) dx = (1/a)ln|ax + b| + C
-   - Conditions: a ≠ 0
-
-3. ∫ 1/(ax² + bx + c) dx:
-   - For b² - 4ac > 0:
-     = (2/√(b² - 4ac))ln|(2ax + b - √(b² - 4ac))/(2ax + b + √(b² - 4ac))| + C
-   - For b² - 4ac < 0:
-     = (2/√(4ac - b²))arctan((2ax + b)/√(4ac - b²)) + C
-   - Conditions: a ≠ 0
-
-4. ∫ 1/√(ax² + bx + c) dx:
-   - For b² - 4ac < 0:
-     = (1/√a)ln|2a√(ax² + bx + c) + 2ax + b| + C
-   - For b² - 4ac > 0:
-     = ln|√(ax² + bx + c) + √a(x + r₁)| - ln|√(ax² + bx + c) + √a(x + r₂)| + C
-     where r₁, r₂ are roots of ax² + bx + c = 0
-   - Conditions: ax² + bx + c > 0, a > 0
-
-## 2. Exponential and Logarithmic Forms
-1. ∫ xᵃ(ln x)ⁿ dx = xᵃ⁺¹(ln x)ⁿ/(a+1) - (n/(a+1))∫ xᵃ(ln x)ⁿ⁻¹ dx
-   - Conditions: x > 0, a ≠ -1, n ∈ ℕ
+# Corrected integration formulae 
 
 2. ∫ eᵃˣ(sin bx) dx = eᵃˣ(a sin bx - b cos bx)/(a² + b²) + C
    - Conditions: a, b ∈ ℝ, b ≠ 0
